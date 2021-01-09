@@ -1,15 +1,10 @@
 import dash
-from dash.dependencies import Input, Output
 import dash_core_components as dcc
 import dash_html_components as html
-
 import flask
 import pandas as pd
-import time
 import os
 import plotly.express as px
-import plotly.graph_objects as go
-import numpy as np
 
 server = flask.Flask('app')
 server.secret_key = os.environ.get('secret_key', 'secret')

@@ -132,7 +132,7 @@ app.layout = html.Div([
         html.Div([
             html.P('Zanieczyszczenie powietrza jest problemem globalnym. Międzynarodowa Organizacja Pracy definiuje je jako "wszelkie skażenie powietrza przez substancje, które są szkodliwe dla zdrowia lub niebezpieczne z innych przyczyn, bez względu na ich postać fizyczną". Spalanie paliw kopalnych, działalność rolnicza czy eksploatacja górnicza to tylko kilka przykładów, które przyczyniają się do zwiększania zanieczyszczenia powietrza. Substancje, które mają na nie wpływ to dwutlenek węgla, dwutlenek siarki, tlenki azotu i inne.'),
 
-            html.P('Poniżej znajduje się analiza zanieczyszczenia środowiska w Polsce w latach 1998 - 2017 w podziale na województwa. Zestawiono te informacje z liczbą zgonów w każdym województwie spowodowanych nowotworem. Pod uwagę zostały wzięte wszystkie rodzaje choroby.')
+            html.P('Poniżej znajduje się analiza zanieczyszczenia środowiska w Polsce w latach 1998 - 2017 w podziale na województwa. Zestawiono te informacje z liczbą zgonów w każdym województwie spowodowanych nowotworem. Pod uwagę zostały wzięte wszystkie rodzaje choroby.', style={'margin-top': '20px'})
         ], className='text_container'),
         
         html.Div([

@@ -12,6 +12,9 @@ puste_wartosci_zgony_1996_1997 = puste_wartosci.loc[(puste_wartosci['Rok'] == 19
 
 
 
+# %% Poprawne nazwy województw
+poprawne_nazwy = df.loc[(~df['Nazwa'].str.isalpha())]
+
 # %% Usuniecie wierszy z brakiem danych
 
 df_bez_lat_1996_1997 = df.drop(df[(df.Rok == 1996) | (df.Rok == 1997)].index)

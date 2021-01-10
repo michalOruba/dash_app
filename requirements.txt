@@ -5,3 +5,4 @@ flask
 pandas
 plotly.express
 gunicorn
+scikit-learn
